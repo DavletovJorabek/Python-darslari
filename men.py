@@ -1,0 +1,6 @@
+f =open("men_haqimda.txt",'x')
+f =open('men_haqimda.txt','w')
+f.write("Esanboyevich")
+f =open("men_haqimda.txt",'r')
+print(f.read())
+import os remove("mening_fayilim")
